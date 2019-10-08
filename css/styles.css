@@ -1,27 +1,21 @@
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 html,body{
-   
   height: 100%;
 }
 
 main{
-  
   min-height: 100%;
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
- 
 }
 .container-1 p {
-
   font-family: 'Raleway', sans-serif;
   font-size: 1.5vw;
-
 }
 
 .container-1 h2{
@@ -51,7 +45,7 @@ main{
  
 
 }
-.img-box{
+.img-box-1{
   justify-content: center;
   align-items: center;
   display: flex;
@@ -62,7 +56,37 @@ main{
 
 
 }
-.img-box a{
+.img-box-2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../img/Capture2.PNG)
+
+
+}
+.img-box-3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../img/Capture3.PNG)
+}
+.img-box-4{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../img/Capture1.PNG)
+}
+
+.img-box-1 a{
   background: rgb(94, 203, 231);
   
   margin: 2px;
@@ -76,6 +100,42 @@ main{
   opacity: 0;
  
 }
+.img-box-2 a{
+  background: rgb(94, 203, 231);
+  margin: 2px;
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+.img-box-3 a{
+  background: rgb(94, 203, 231);
+  margin: 2px;
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+.img-box-4 a{
+  background: rgb(94, 203, 231);
+  margin: 2px;
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
 .box{
   flex-basis: 23%;
   flex-wrap: wrap;
@@ -88,7 +148,22 @@ main{
   font-family: 'Raleway', sans-serif;
 }
 
-.img-box:hover {
+.img-box-1:hover {
+  background:rgba(24, 181, 220,0.8);
+  transition: 0.4s;
+  
+}
+.img-box-2:hover {
+  background:rgba(24, 181, 220,0.8);
+  transition: 0.4s;
+  
+}
+.img-box-3:hover {
+  background:rgba(24, 181, 220,0.8);
+  transition: 0.4s;
+  
+}
+.img-box-4:hover {
   background:rgba(24, 181, 220,0.8);
   transition: 0.4s;
   
@@ -98,7 +173,19 @@ a:hover{
   height: 3.5vw;
 }
 
-.img-box:hover a{
+.img-box-1:hover a{
+  opacity: 1;
+  transition: 0.2s;
+}
+.img-box-2:hover a{
+  opacity: 1;
+  transition: 0.2s;
+}
+.img-box-3:hover a{
+  opacity: 1;
+  transition: 0.2s;
+}
+.img-box-4:hover a{
   opacity: 1;
   transition: 0.2s;
 }
@@ -109,8 +196,9 @@ a:hover{
 a:active{
   background: yellow;
 }
-span{
+.container-2 span{
   font-size: 2vw;
+  font-weight: 700;
 }
 
 
